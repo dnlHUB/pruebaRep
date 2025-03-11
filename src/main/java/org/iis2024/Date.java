@@ -84,7 +84,5 @@ public class Date {
       return false;
     }
   }
-  public void printDate(){
-    System.out.println(day + "/" );;
-  }
+  private String format = "dd/mm/yyyy";
 }
