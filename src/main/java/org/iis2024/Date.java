@@ -85,4 +85,10 @@ public class Date {
     }
   }
   private String format = "dd/mm/yyyy";
+
+  public Date(int dia,int mes,int año){
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
 }
