@@ -85,4 +85,11 @@ public class Date {
     }
   }
   private String format = "dd/mm/yyyy";
+  
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
+  }
+
 }
